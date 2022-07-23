@@ -1,6 +1,6 @@
 {
   "name": "linqext",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wrap linq.js to invoke",
   "main": "index.js",
   "scripts": {
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/alislin/linqext#readme",
   "dependencies": {
-    "linq": "^4.0.0"
-  }
+    "linq": "^4.0.0",
+    "typescript": "^4.7.4"
+  },
+  "types": "Linq.d.ts"
 }
